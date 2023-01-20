@@ -1,0 +1,591 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/*index*/
+body {
+  background-color: black;
+}
+body header {
+  background-color: black;
+  width: 100%;
+}
+body header .divContainer__a {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body header .divContainer__a .divContainer__a__e img {
+  width: 70px;
+}
+body header .divContainer__a .divContainer__a__logo h1 {
+  color: white;
+  text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 40px #B1AFFF;
+  /*text-shadow: 0 0 5px #3366a4;*/
+  height: 40px;
+}
+body header .divContainer__a .divContainer__a__login img {
+  display: flex;
+  justify-content: flex-end;
+}
+body header nav {
+  background-color: black;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+body header nav .m {
+  padding: 0;
+  margin: 0;
+}
+body header nav .m .colornav .letra {
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  font-style: inherit;
+}
+body header nav .m .colornav .letra #mcolor {
+  color: white;
+}
+body header nav .m .colornav .letra #mcolor:hover {
+  color: #8699B1;
+}
+
+main .sectionBeneficios {
+  margin-top: 50px;
+  margin-bottom: 50PX;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+main .sectionBeneficios .sectionBeneficios__ab__a {
+  margin-bottom: 10px;
+}
+main .sectionBeneficios .sectionBeneficios__ab__a h2 {
+  font-weight: bold;
+  margin-left: 20px;
+  color: #344D67;
+}
+main .sectionBeneficios .sectionBeneficios__ab {
+  width: 100%;
+  height: 325px;
+  display: flex;
+}
+main .sectionBeneficios .sectionBeneficios__ab .sectionBeneficios__ab__b {
+  display: flex;
+}
+main .sectionBeneficios .sectionBeneficios__ab .sectionBeneficios__ab__b .Ben {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+main .sectionBeneficios .sectionBeneficios__ab .sectionBeneficios__ab__b .Ben img {
+  width: 200px;
+  height: 220px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+main .sectionBeneficios .sectionBeneficios__ab .sectionBeneficios__ab__b .descripcion {
+  margin: 50px 20px;
+  width: 50%;
+}
+main .sectionBeneficios .sectionBeneficios__ab .sectionBeneficios__ab__b .descripcion h3 {
+  color: white;
+  font-weight: bold;
+}
+main .sectionBeneficios .sectionBeneficios__ab .sectionBeneficios__ab__b .descripcion p {
+  font-size: 15px;
+  text-align: justify;
+  color: white;
+}
+
+/*footer*/
+footer .divFooter {
+  background-color: #8699B1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
+  flex-direction: column;
+}
+footer .divFooter .divFooter__redes {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .divFooter .divFooter__redes img {
+  width: 20px;
+  height: 20px;
+}
+footer .divFooter .divFooter__redes p {
+  font-weight: bold;
+  color: black;
+}
+footer .divFooter .divFooter__copy {
+  font-size: 15px;
+  margin-top: 20px;
+}
+footer .divFooter .divFooter__copy p {
+  font-weight: bold;
+}
+
+/*footer*/
+.ssa {
+  width: 100%;
+  display: flex;
+  align-self: flex-end;
+  position: absolute;
+  bottom: 0;
+}
+
+.divFooter {
+  background-color: #8699B1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
+  flex-direction: column;
+}
+.divFooter .divFooter__redes {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.divFooter .divFooter__redes p {
+  font-weight: bold;
+  color: black;
+}
+.divFooter .divFooter__redes img {
+  width: 20px;
+  height: 20px;
+}
+.divFooter .divFooter__logo {
+  color: black;
+  font-weight: bold;
+}
+.divFooter .divFooter__copy {
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+@media (max-width: 750px) {
+  /*NAV GENERAL*/
+  .button {
+    background-color: #8699B1;
+  }
+  .colornav {
+    width: 100%;
+    margin: 20px 10px;
+    background-color: #8699B1;
+    border-radius: 50px;
+    padding: 30px;
+  }
+  .colornav .letra {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /*INDEX*/
+  /*CAROUSEL*/
+  .tamanioCarousel {
+    height: 50vh;
+  }
+  /*BENEFICIOS*/
+  .indexbene .sectionBeneficios {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .indexbene .sectionBeneficios .sectionBeneficios__ab__a {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  .indexbene .sectionBeneficios .sectionBeneficios__ab__a h2 {
+    font-size: 40px;
+    color: #8699B1;
+  }
+  .indexbene .sectionBeneficios .sectionBeneficios__ab {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+  }
+  .indexbene .sectionBeneficios .sectionBeneficios__ab .sectionBeneficios__ab__b {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+  }
+  .indexbene .sectionBeneficios .sectionBeneficios__ab .sectionBeneficios__ab__b .Ben {
+    width: 50%;
+    display: flex;
+  }
+  .indexbene .sectionBeneficios .sectionBeneficios__ab .sectionBeneficios__ab__b .Ben img {
+    width: 200px;
+    height: 220px;
+    display: flex;
+  }
+  .indexbene .sectionBeneficios .sectionBeneficios__ab .sectionBeneficios__ab__b .descripcion {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .indexbene .sectionBeneficios .sectionBeneficios__ab .sectionBeneficios__ab__b .descripcion h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+  }
+  .indexbene .sectionBeneficios .sectionBeneficios__ab .sectionBeneficios__ab__b .descripcion p {
+    font-size: 13px;
+    color: white;
+    height: 100%;
+    text-align: justify;
+  }
+}
+.divContacto {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.divContacto .divContacto__a {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.divContacto .divContacto__a img {
+  width: 7%;
+}
+.divContacto .divContacto__a h3 {
+  color: #C7BCA1;
+}
+.divContacto .divContacto__a p {
+  color: white;
+}
+
+.divContacto__b {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.divContacto__b .divContacto__b__map {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divContacto__b .divContacto__b__map iframe {
+  width: 430px;
+}
+.divContacto__b .content {
+  margin-left: auto;
+  margin-right: auto;
+}
+.divContacto__b .content .contact__wrapper {
+  width: 430px;
+  color: white;
+  padding: 1em;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+.divContacto__b .content .contact__form form {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.divContacto__b .content .contact__form form p {
+  margin: 0;
+  padding: 1em;
+}
+.divContacto__b .content .contact__form form p button, .divContacto__b .content .contact__form form p input, .divContacto__b .content .contact__form form p textarea {
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  background: none;
+  outline: 0;
+  color: white;
+  border-bottom: 1px solid #8699B1;
+}
+.divContacto__b .content .contact__form form p button {
+  background: #8699B1;
+  border: 0;
+  padding: 1em;
+}
+
+@media (max-width: 930px) {
+  main .divContacto {
+    width: 100%;
+    height: 50%;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  main .divContacto .divContacto__a {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  main .divContacto .divContacto__a img {
+    width: 15%;
+    margin-bottom: 10px;
+  }
+  main .divContacto__b {
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+  main .divContacto__b .divContacto__b__map {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  main .divContacto__b .divContacto__b__map iframe {
+    width: 90%;
+    margin: auto;
+  }
+  main .divContacto__b .content {
+    height: 50%;
+  }
+  main .divContacto__b .content .contact__wrapper {
+    width: 370px;
+  }
+}
+main {
+  width: 100%;
+}
+main .divtitle {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+main .divtitle h2 {
+  height: 100%;
+  font-weight: bold;
+  color: white;
+}
+main .divServicios__x {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+main .divServicios__x .divServicios__x__caja {
+  width: 30%;
+  height: 100%;
+}
+main .divServicios__x .divServicios__x__caja img {
+  width: 400px;
+  border-radius: 8px;
+}
+main .divServicios__x .divServicios__x__caja h3 {
+  font-weight: bold;
+  color: white;
+}
+main .divServicios__x .divServicios__x__caja p {
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-align: justify;
+}
+main .divServicios__x .desc {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 930px) {
+  .divServicios {
+    width: 100%;
+    padding: 0px 0px;
+  }
+  .divServicios .divServicios__x {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px;
+    margin-top: 40px;
+  }
+  .divServicios .divServicios__x .divServicios__x__caja {
+    width: 100%;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .divServicios .divServicios__x .divServicios__x__caja img {
+    width: 350px;
+    padding: 0px 0px;
+  }
+  .divServicios .divServicios__x .divServicios__x__caja p {
+    width: 310px;
+    font-size: 12px;
+  }
+}
+.mainNosotros {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.mainNosotros .divtitle {
+  width: 100%;
+}
+.mainNosotros .divN {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.mainNosotros .divN .divN__img {
+  width: 30%;
+  height: 50%;
+  margin-bottom: 20px;
+}
+.mainNosotros .divN .divN__img img {
+  width: 100%;
+  border-radius: 10px;
+}
+.mainNosotros .divN .divN__p {
+  width: 30%;
+  height: 50%;
+}
+.mainNosotros .divN .divN__p p {
+  width: 100%;
+  color: white;
+  text-align: justify;
+}
+
+@media (max-width: 736px) {
+  .mainNosotros {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .mainNosotros .divtitle {
+    width: 100%;
+  }
+  .mainNosotros .divN {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .mainNosotros .divN .divN__img {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  .mainNosotros .divN .divN__img img {
+    width: 100%;
+  }
+  .mainNosotros .divN .divN__p {
+    width: 80%;
+  }
+  .mainNosotros .divN .divN__p p {
+    font-size: 14px;
+    width: 100%;
+    color: white;
+    text-align: justify;
+  }
+}
+
+/*CURSOS*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+.container .card {
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+  justify-content: center;
+  align-items: center;
+}
+.container .card img {
+  width: 200px;
+  height: 220px;
+}
+.container .card h4 {
+  font-weight: 600;
+}
+.container .card p {
+  padding: 0 1rem;
+  font-size: 14px;
+  font-weight: 300;
+}
+.container .card a {
+  font-weight: 500;
+  text-decoration: none;
+}
+.container .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+/*# sourceMappingURL=estilos.css.map */
